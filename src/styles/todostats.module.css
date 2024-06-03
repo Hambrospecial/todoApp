@@ -1,0 +1,29 @@
+.stats {
+  display: flex;
+  width: 350px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.statsItem {
+  text-align: center;
+  flex: 1;
+}
+
+.statsItem span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.statsItem label {
+  font-size: 14px;
+  color: #666;
+}
